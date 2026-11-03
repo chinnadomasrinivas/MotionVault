@@ -2,6 +2,13 @@ node_modules
 dist
 .DS_Store
 .env
+.env.*
+!.env.example
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Imported Remotion projects are user video assets and can be very large.
+projects/
+.upload-*.zip
+.unpack-*/
